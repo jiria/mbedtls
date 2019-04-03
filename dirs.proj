@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(EnvironmentConfig)" />
+  <Import Project="$(DirsTargets)" />
+  <ItemGroup>
+    <ProjectReference Include="visualc\VS2010\mbedTLS.vcxproj" />
+  </ItemGroup>
+  <!-- work around cloud build failure: https://stackoverflow.microsoft.com/questions/84209 -->
+  <Target Name="CleanupEmptyRefsFolder" />
+</Project>
