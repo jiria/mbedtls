@@ -110,6 +110,7 @@
       <CompileAs>CompileAsC</CompileAs>
       <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
