@@ -10,11 +10,13 @@ Logs
 msbuild.log
 visualc/VS2010/Debug
 visualc/VS2010/Logs
+visualc/VS2010/obj
 visualc/VS2010/objd
 visualc/VS2010/QLogs
 visualc/VS2010/QuickBuild.log
 visualc/VS2010/mbedtls.vcxproj.user
 visualc/VS2010/msbuild.log
+visualc/VS2010/Release
 visualc/VS2010/x86
 x86
 
